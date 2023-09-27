@@ -1,0 +1,6 @@
+[ {
+  "numeroSala" : 2,
+  "sucursal" : "lourdes",
+  "pelicula" : "tu mama",
+  "butacas" : [ [ "O", "O", "O", "O", "O" ], [ "O", "O", "O", "O", "O" ], [ "O", "O", "O", "O", "O" ], [ "O", "O", "O", "O", "O" ], [ "O", "O", "O", "O", "O" ], [ "O", "O", "O", "O", "O" ], [ "O", "O", "O", "O", "O" ], [ "O", "O", "O", "O", "O" ] ]
+} ]
