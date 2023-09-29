@@ -1,5 +1,8 @@
 package Registropeliculas;
 
+import Registro.Conexiones;
+import com.sun.security.jgss.GSSUtil;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 import java.sql.Connection;
@@ -9,6 +12,7 @@ import java.sql.SQLException;
 public class Main {
 
         public static void main (String[]args){
+
             String[] cartelera ={
                     "La Monja 1 (Terror - D)",
                     "Cacería en Venecia (Acción - C)",

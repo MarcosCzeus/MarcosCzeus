@@ -2,10 +2,12 @@ package Registro;
 
 
 public class Sucursal {
+
     private String nombreSucursal;
     private String gerente;
     private String direccion;
     private String numeroTelefono;
+    private int CodigoSucursal;
 
 
     public Sucursal(String nombreSucursal, String gerente, String direccion, String numeroTelefono) {
@@ -30,6 +32,35 @@ public class Sucursal {
         this.nombreSucursal = nombreSucursal;
         this.gerente = gerente;
         this.direccion = direccion;
+        this.numeroTelefono = numeroTelefono;
+    }
+
+    public String getNombreSucursal(String nombreSucursal){return nombreSucursal;}
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public String getGerente() {
+        return gerente;
+    }
+
+    public String getNumeroTelefono() {
+        return numeroTelefono;
+    }
+    public void setNombreSucursal(String nombreSucursal) {
+        this.nombreSucursal = nombreSucursal;
+    }
+
+    public void setGerente(String gerente) {
+        this.gerente = gerente;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public void setNumeroTelefono(String numeroTelefono) {
         this.numeroTelefono = numeroTelefono;
     }
 }

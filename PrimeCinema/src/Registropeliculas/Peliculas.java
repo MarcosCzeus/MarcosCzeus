@@ -5,7 +5,7 @@ public class Peliculas {
         // Atributos
         private String nombre;
         private String genero;
-        private String clasificacion;
+        private  String clasificacion;
 
         // Constructor
         public Pelicula(String nombre, String genero, String clasificacion) {

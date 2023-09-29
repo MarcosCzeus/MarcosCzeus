@@ -29,6 +29,8 @@ public class Sala {
         return butacas;
     }
 
+    
+
     public boolean ocuparButaca(int fila, int columna) {
         if (fila >= 0 && fila < 8 && columna >= 0 && columna < 5) {
             if (butacas[fila][columna].equals("O")) {
